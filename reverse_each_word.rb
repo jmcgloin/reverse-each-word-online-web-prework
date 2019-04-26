@@ -3,5 +3,5 @@ def reverse_each_word(sentence)
   newar = []
   ar.each { |word| newar.push(word.reverse) }
   sentence = newar.join(" ")
-  newar
+  sentence
 end
